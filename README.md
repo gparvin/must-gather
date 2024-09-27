@@ -6,7 +6,7 @@ various key resources and namespaces that exist on your cluster.
 ## Usage
 
 ```sh
-oc adm must-gather --image=quay.io/stolostron/must-gather:SNAPSHOTNAME
+oc adm must-gather --image=quay.io/gparvin/must-gather:SNAPSHOTNAME
 ```
 
 If you need the results to be saved in a named directory, then following the must-gather
